@@ -185,4 +185,4 @@ async def genkey(interaction: discord.Interaction, count: int = 1, length: int =
     view = CaptchaView(captcha_code, count, length)
     await interaction.followup.send(embed=embed, file=captcha_file, view=view, ephemeral=True)
 
-bot.run('MTUxMjcwODM4NTEzNTM5ODk1Mg.Gao9wZ.Oj_aM5vNLnoIaCAGD8Mg1sxYu1e6QhRUTdsUmg')
+bot.run('MTUxMjcwODM4NTEzNTM5ODk1Mg.Gd6CWJ.w_jWikDBcXOs_QifBb7h-6fHrxA5Egrir_YCsM')
